@@ -16,7 +16,7 @@ public class CCuenta {
     private String nombre;
     private String cuenta;
     private double saldo;
-    private double tipoInterés;
+    private double tipoInteres;
 
     /**
      * Creamos el constructor de CCuenta vacío.
@@ -139,15 +139,15 @@ public class CCuenta {
      * @return un double con el tipo de interés que tine la cuenta.
      */
 
-    public double getTipoInterés() {
-        return tipoInterés;
+    public double getTipoInteres() {
+        return tipoInteres;
     }
 
     /**
-     * @param tipoInterés instancia un double con el tipo de interés que va a tener la cuenta.
+     * @param tipoInteres instancia un double con el tipo de interés que va a tener la cuenta.
      */
 
-    public void setTipoInterés(double tipoInterés) {
-        this.tipoInterés = tipoInterés;
+    public void setTipoInteres(double tipoInteres) {
+        this.tipoInteres = tipoInteres;
     }
 }
